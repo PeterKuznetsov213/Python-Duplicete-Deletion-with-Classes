@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import List
+
 
 
 class Double(ABC):
@@ -75,3 +75,4 @@ print(f"Массив #2 - {message2.get_massive()}")
 print(f"Удаление дубликатов стоящих по краям массива - {message2.deleting_double()}\n")
 print(f"Массив #3 - {message3.get_massive()}")
 print(f"Удаление не уникальных значений - {message3.deleting_double()}")
+
