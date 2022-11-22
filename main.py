@@ -67,7 +67,7 @@ class DoubleSet(Double):
 
 message1 = DoubleNearby(["a", "b", "b", "a", "z", "a", "a", "e", "z", "b", "a"])
 message2 = DoubleOnTheSides(["a", "b", "b", "a", "z", "a", "a", "e", "z", "b", "a"])
-message3 = DoubleSet(["a", "b", "b", "a", "z", "a", "a", "e", "z", "b", "a", "x", "x"])
+message3 = DoubleSet(["a", "b", "b", "a", "z", "a", "a", "e", "z", "b", "a", "x", "x","e"])
 
 print(f"Массив #1 - {message1.get_massive()}")
 print(f"Удаление дубликатов стоящих рядом в массиве - {message1.deleting_double()}\n")
