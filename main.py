@@ -56,7 +56,8 @@ class DoubleNearby(Double):
         indexes_ignore = DoubleNearby.checking_double(self)
         if indexes_ignore:
             new_array = [x for i, x in enumerate(self.massive) if i not in indexes_ignore]
-            return DoubleNearby.deleting_double(new_array)
+            self.massive=new_array
+            return DoubleNearby.deleting_double(self)
         return self.massive
 
 
